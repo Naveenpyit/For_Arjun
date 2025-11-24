@@ -29,5 +29,10 @@ class TaskView(APIView):
         except Exception as e:
             return Response({'status':0,'message':str(e)})
         
+    def put(self,request,pk):
+        try:
+            pass
+        except Exception as e:
+            return Response({'status':0,'message':str(e)})
 
 
